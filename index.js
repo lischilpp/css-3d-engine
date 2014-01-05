@@ -18,18 +18,6 @@ function init() {
 			camera.togglePointerLock(world.displayE);
 		}
 	}
-	//#textures
-	var wallTexture   = 'res/textures/stone1.jpg';
-	var wallColor     = '#993A00';
-	var floorTexture  = 'res/textures/stone2.jpg';
-	var floorColor    = '#7F7F7F';
-	var clothTexture  = 'http://fc03.deviantart.net/fs70/i/2013/140/d/e/blue_suede_texture_fuzzy_fabric_stock_wallpaper_by_texturex_com-d65y92e.jpg';
-	var clothColor    = '#0059FF';
-	var woodTexture   = 'http://th07.deviantart.net/fs70/PRE/i/2010/302/1/4/tileable_wood_texture_01_by_goodtextures-d31qde8.jpg';
-	var woodColor     = '#4C1F00';
-	var pillowTexture = 'http://fc03.deviantart.net/fs40/i/2009/044/c/a/texture_083_by_juuichimei.jpg';
-	var pillowColor   = '#00BFFF';
-	
 	var blue = '#009bd3';
 	var yellow = '#d1d100';
 	var pink = '#ce00c0';
