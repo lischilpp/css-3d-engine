@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="index.css" />
+	<script src="settings.js"></script>		
+	<script src="api/main.js"></script>		
+	<script src="api/rendererOptions.js"></script>
+	<script src="api/lib/lib.js"></script>		
+	<script src="api/lib/Crossbrowser.js"></script>
+	<script src="api/lib/Math.js"></script>
+	<script src="api/lib/StringDOMElement.js"></script>
+	<script src="api/world/QuadrangularPlane.js"></script><!--Working!-->
+	<script src="api/world/TriangularPlane.js"></script>  <!--Working!-->
+	<script src="api/world/Cuboid.js"></script>			  <!--Working!-->
+	<script src="api/world/Pyramid.js"></script>		  <!--Not working!-->
+	<script src="api/world/Tetrahedron.js"></script>	  <!--Not working!-->
+	<script src="api/world/Tube.js"></script>			  <!--Not implemented!-->
+	<script src="api/world/World.js"></script>
+	<script src="api/world/Animation.js"></script>
+	<script src="api/camera/Camera.js"></script>
+	<script src="api/camera/Functions.js"></script>
+	<script src="api/etc/GameLoop.js"></script>
+	<script src="api/etc/Gravity.js"></script>
+	<script src="index.js"></script>
+	<title>Experiment</title>
+</head>
+<body>
+	<ul id="debug">
+		<li id="debug_fps"></li>
+		<li id="debug_coordinates"></li>
+		<li id="debug">monitor</li>
+	</ul>
+	<div id="display">
+		<div id="viewport">
+			<div id="camera">
+				<div id="world">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="infoSplit1">
+		<div>
+			<h1>CSS 3d Demonstration</h1>
+		</div>
+	</div>
+	<div id="infoSplit2">
+		<div>
+			<p>Press "f" to lock mouse</p>
+			<p>Use W-A-S-D to move</p>
+			<p>Look around by dragging with your mouse cursor, or arrow keys</p>
+		</div>
+	</div>
+</body>
+</html>
