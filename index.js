@@ -36,24 +36,6 @@ function init() {
 	gameLoop = new GameLoop( 10 ); // 10
 	gravity = new Gravity( 1 ); //2.5
 	world.init();
-	
-	var prlx = {};
-	prlx.speed = 10;
-	prlx.scroll = function(delta) {
-		console.log(delta);
-		if (delta == 1) {
-			camera.pz += prlx.speed;
-		}else if (delta == -1) {
-			camera.pz -= prlx.speed;
-		}
-		camera.updatePosition();
-	}
-	function onMouseWheel(e) {
-	        var e = window.event || e;
-	        prlx.scroll( Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail))) );
-	}
-	var mousewheelevt=(/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel"
-	document.addEventListener(mousewheelevt, onMouseWheel);
 }
 
 
