@@ -1,4 +1,12 @@
-A Javascript CSS 3D Engine
-The CSS standard 3d-transforms (translateX, translateY etc) are used.
+# CSS-3D-Engine
 
-Some parts are horrible coded! Please excuse me!
+An Javascript 3D Engine using only CSS transformations.
+
+## Features
+-First person controller
+-Jump physics (no collision physics)
+-Animations
+
+## Screenshot
+
+![Screenshot1](screenshot.png)
