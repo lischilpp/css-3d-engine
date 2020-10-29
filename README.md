@@ -1,6 +1,6 @@
 # CSS-3D-Engine
 
-An Javascript 3D Engine using only CSS transformations.
+An Javascript 3D Engine using CSS transformations.
 
 ## Features
 -First person controller
