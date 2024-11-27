@@ -1,4 +1,4 @@
-# CSS 3D-Engine
+# CSS 3D Engine
 
 A Javascript 3D Engine using CSS transformations.
 
