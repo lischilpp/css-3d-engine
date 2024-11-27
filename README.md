@@ -1,15 +1,13 @@
-# CSS-3D-Engine
+# CSS 3D-Engine
 
-An Javascript 3D Engine using CSS transformations.
+A Javascript 3D Engine using CSS transformations.
 
 [Interactive Page](https://lischilpp.github.io/css-3d-engine/)
 
 ## Features
--First person controller
-
--Jump physics (no collision physics)
-
--Animations
+- First person controller with adjustable parameters
+- Jump physics
+- Shapes such as Cuboid and Plane
 
 ## Screenshot
 
